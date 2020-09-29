@@ -1,0 +1,141 @@
+/*! Cannabify - Medical Marijuana Dispensary HTML Bootstrap Template v.1.6.0 - 2020-07-01 */
+/*------------------------------------------------------------------
+Icons positioning and styling
+
+[Table of contents]
+1. Icons styles
+2. Icons generic positions
+
+------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+    [1. Leaf styles]
+*/
+.c-leaf-1 {
+  font-size: 12.5rem;
+  -webkit-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  transform: rotate(15deg);
+  line-height: 1;
+}
+.c-leaf-2 {
+  font-size: 85rem;
+  -webkit-transform: rotate(-20deg);
+  -moz-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+  line-height: 1;
+  position: absolute;
+  right: -48rem;
+  bottom: -2rem;
+}
+.c-leaf-3 {
+  font-size: 10.5rem;
+}
+.c-leafs-4 {
+  font-size: 15rem;
+  -webkit-transform: rotate(-19deg);
+  -moz-transform: rotate(-19deg);
+  -o-transform: rotate(-19deg);
+  -ms-transform: rotate(-19deg);
+  transform: rotate(-19deg);
+  line-height: 1;
+  position: absolute;
+  right: 2rem;
+  bottom: 2rem;
+  opacity: 0.2;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+  filter: alpha(opacity=20);
+}
+.c-leafs-5 {
+  font-size: 32rem;
+  -webkit-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  transform: rotate(15deg);
+  line-height: 1;
+  position: absolute;
+  left: -8.5rem;
+  bottom: 3rem;
+  opacity: 0.2;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+  filter: alpha(opacity=20);
+}
+.c-leaf-inner {
+  font-size: 52rem;
+  -webkit-transform: rotate(-20deg);
+  -moz-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+  line-height: 1;
+  position: absolute;
+  right: -4rem;
+  bottom: -14rem;
+}
+.c-leaf-inner svg {
+  max-width: none;
+}
+.c-leafs-side {
+  font-size: 20rem;
+  line-height: 1;
+  position: absolute;
+  right: 0.75rem;
+  top: 0.75rem;
+  -webkit-transform: translate(30%, -35%);
+  -moz-transform: translate(30%, -35%);
+  -o-transform: translate(30%, -35%);
+  -ms-transform: translate(30%, -35%);
+  transform: translate(30%, -35%);
+}
+.c-leafs-head-top {
+  font-size: 10rem;
+  -webkit-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  transform: rotate(15deg);
+  line-height: 1;
+  position: absolute;
+  left: -0.5rem;
+  top: -2.5rem;
+}
+.c-vape-side {
+  font-size: 16rem;
+  line-height: 1;
+  position: absolute;
+  opacity: 0.3;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+  filter: alpha(opacity=30);
+  right: -0.5rem;
+  bottom: 4rem;
+}
+.c-leaf-age-popup {
+  position: absolute;
+  left: 0;
+  top: 1rem;
+  width: 100%;
+  line-height: 1;
+  font-size: 12rem;
+  opacity: 0.1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+  filter: alpha(opacity=10);
+}
+/*------------------------------------------------------------------
+    [2. Leaf generic positions]
+*/
+.p-leaf-1 {
+  position: absolute;
+  left: 1rem;
+  top: -4rem;
+  text-align: center;
+  min-width: 41.666667%;
+}
+@media (max-width: $screen-md -1px) {
+  .p-leaf-1 {
+    display: none;
+  }
+}
